@@ -355,7 +355,7 @@
             <repositories>
                 <repository>
                     <id>redhat-techpreview-all-repository</id>
-                    <url>http://maven.repository.redhat.com/techpreview/all/</url>
+                    <url>http://nexus.tooling.svc.cluster.local:8081/content/groups/forum</url>
                 </repository>
             </repositories>
         </profile>
