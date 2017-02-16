@@ -27,7 +27,7 @@
         <repository>
           <id>fusesource.m2</id>
           <name>FuseSource Community Release Repository</name>
-          <url>https://repo.fusesource.com/nexus/content/groups/public</url>
+          <url>http://nexus.tooling.svc.cluster.local:8081/content/groups/forum</url>
           <snapshots>
             <enabled>false</enabled>
           </snapshots>
@@ -39,8 +39,8 @@
         <repository>
           <id>fusesource.ea</id>
           <name>FuseSource Community Early Access Release Repository</name>
-          <url>https://repo.fusesource.com/nexus/content/groups/ea</url>
-          <snapshots>
+	  <url>http://nexus.tooling.svc.cluster.local:8081/content/groups/forum</url>
+	  <snapshots>
             <enabled>false</enabled>
           </snapshots>
           <releases>
@@ -51,8 +51,8 @@
         <repository>
           <id>redhat.ga</id>
           <name>Red Hat General Availability Repository</name>
-          <url>https://maven.repository.redhat.com/ga</url>
-          <snapshots>
+	  <url>http://nexus.tooling.svc.cluster.local:8081/content/groups/forum</url>
+	  <snapshots>
             <enabled>false</enabled>
           </snapshots>
           <releases>
@@ -65,8 +65,8 @@
         <pluginRepository>
           <id>fusesource.m2</id>
           <name>FuseSource Community Release Repository</name>
-          <url>https://repo.fusesource.com/nexus/content/groups/public</url>
-          <snapshots>
+	 <url>http://nexus.tooling.svc.cluster.local:8081/content/groups/forum</url> 
+	  <snapshots>
             <enabled>false</enabled>
           </snapshots>
           <releases>
@@ -77,8 +77,8 @@
         <pluginRepository>
           <id>fusesource.ea</id>
           <name>FuseSource Community Early Access Release Repository</name>
-          <url>https://repo.fusesource.com/nexus/content/groups/ea</url>
-          <snapshots>
+	  <url>http://nexus.tooling.svc.cluster.local:8081/content/groups/forum</url>
+	  <snapshots>
             <enabled>false</enabled>
           </snapshots>
           <releases>
@@ -89,8 +89,8 @@
         <pluginRepository>
           <id>redhat.ga</id>
           <name>Red Hat General Availability Repository</name>
-          <url>https://maven.repository.redhat.com/ga</url>
-          <snapshots>
+	  <url>http://nexus.tooling.svc.cluster.local:8081/content/groups/forum</url>
+	  <snapshots>
             <enabled>false</enabled>
           </snapshots>
           <releases>
